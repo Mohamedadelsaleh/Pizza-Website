@@ -1,0 +1,736 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#Navegation1
+{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+/*************************************** Logo Design **********************************************/
+
+.logo
+{
+    position: absolute;
+    width: 7%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.logo img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+}
+
+/************************************** NavBar One **************************************************/
+.navbar1
+{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    height: 32%;
+}
+.navbar1 ul{
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px;
+}
+.navbar1 ul li
+{
+    display: inline;
+    float: left;
+}
+.navbar1 ul li a 
+{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'IBM Plex Serif', serif;
+    margin-right: 0px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+
+.navbar1 ul li .arabic
+{
+    color: red;
+} 
+
+.navbar1 ul li a:hover 
+{
+    background-color: rgba(255, 174, 0, 0.945);
+}
+
+/************************************ SideBar *******************************************/
+
+.sidBar{
+    position: absolute;
+    top: 33%;
+    width: 25%;
+    height: 45%;
+    right: 0%;
+}
+.sidBar .img1 {
+    position: relative;
+    right: 4%;
+    width: 6%;
+    margin-right: 0px;
+    padding: 3px 0px;
+    float: right;
+}
+.sidBar p 
+{
+    position: relative;
+    left: 45%;
+    bottom: 0%;
+    float: left;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: bold;
+    padding: 0px;
+    font-family: 'IBM Plex Serif', serif;
+    text-transform: uppercase;
+}
+.sidBar .img2
+{
+    position: absolute;
+    top: 10%;
+    right: 58%;
+    width: 7%;
+}
+
+/*************************************** Div 2 ****************************************************/
+ #Navegation2
+ {
+    position: absolute;
+    background-image: url(3.png);
+    background-repeat: round;
+    background-attachment: unset;
+    background-size: cover;
+    width: 100%;
+    height: 25%;
+    top: 10%;
+    margin: 0;
+    padding: 0;
+ }
+
+ /************************************** NavBar2 ***************************************************/
+ .navbar2
+ {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+ }
+
+ .navbar2 ul
+ {
+    position: relative;
+    list-style: none;
+    margin: 0px;
+    padding: 5px 0px; 
+ }
+
+ .navbar2 ul li{
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+ }
+ .navbar2 ul li a,select
+ {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0px 0px;
+    padding: 4px 55px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    text-transform: uppercase;
+ }
+ select{
+    background-color: inherit;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: -5px;
+    cursor: pointer;
+    border-bottom: none;
+ }
+ .selectli
+ {
+     margin: 0%;
+     padding: 0;
+ }
+ .navbar2 ul li a:hover 
+ {
+    position: relative;
+    background-color:rgba(255, 174, 0, 0.945);
+ }
+ .navbar2 ul li select:hover 
+ {
+    background-color: rgba(255, 174, 0, 0.945);
+}
+.navbar2 ul li option:checked{
+    background-color: rgba(255, 174, 0, 0.945);
+}
+
+/*************************** Side Start Order ***********************************/
+.Startorder
+{
+    position: absolute;
+    background-color: #f43636;
+    top: -9%;
+    right: 0%;
+    width: 39%;
+    height: 40%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0px -2px 5px 4px rgb(145 142 136 / 90%);
+} 
+.Startorder a 
+{
+    position: absolute;
+    right: 0%;
+    padding: 0px 153px;
+    margin: 0px;
+    top: 20%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Suez One', serif;
+}
+
+.Startorder a:hover
+{
+    font-size: 40px;
+    text-align: center;
+    right: 0%;
+    top: 15%;
+    margin: 0px;
+    padding: 0px 105px;
+}
+
+/***************************** Navbar Three ***************************************/
+
+.navbar3
+{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 80%;
+    background-color: rgb(0 0 0 / 50%);
+}
+.navbar3 ul{
+    position: relative;
+    list-style: none;
+    margin: 0px;
+    padding: 0px 0px;
+}
+.navbar3 ul li{
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+ }
+ .navbar3 ul li a
+ {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255 255 255 / 90%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0px 0px;
+    padding: 8px 37px;
+    text-transform: uppercase;
+ }
+ .navbar3 ul li a:hover
+ {
+    text-decoration: underline 5px solid red;
+ }
+
+ /************************************** Main Body **************************************/
+#Contintbody{
+     position: absolute;
+     width: 100%;
+     height: 65%;
+     top: 35%;
+     background-color: rgba(168, 164, 164, 0.527);
+ }
+
+
+
+ /********************************** Block One ********************************************/
+
+ .block1
+{
+    position: relative;
+    width: 49%;
+    height: 48%;
+    top: 2%;
+    left: 1%;
+    background-color: #ffffff;
+
+}
+.block1 img 
+{
+    position: relative;
+    left: 2%;
+    width: 25%;
+    height: 75%;
+}
+.block1 p
+{
+
+    position: relative;
+    margin: 0px 75px;
+    padding: 0px 0px;
+    left: -4%;
+    top: -8%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+}
+.block1 h1
+{
+    position: absolute;
+    font-size: 20px;
+    color: #b80505;
+    right: 42%;
+    top: 0%;
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+}
+
+.block1 .pnormal
+{
+    position: absolute;
+    font-size: 15px;
+    font-weight: normal;
+    color: #010101;
+    left: 37%;
+    right: 0%;
+    top: 20%;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif';
+}
+.selectordiv
+{
+    position: absolute;
+    width: 64%;
+    height: 15%;
+    padding: 0px;
+    top: 60%;
+    left: 36%;
+    margin: 0;
+}
+.selectordiv .selector1
+{
+    position: relative;
+    width: 58%;
+    margin: 0px 5px;
+    padding: 0px 0px;
+    border-radius: 5px;
+    background-color: white;
+    border-collapse: 10px;
+    border: 1px solid black;
+    border-width: 3px;
+    font-size: 15px;
+    border-color: rgb(122 113 113);
+}
+.selectordiv .selector2
+{
+    position: relative;
+    width: 35%;
+    margin: 0px 5px;
+    padding: 0px 0px;
+    border-radius: 5px;
+    background-color: white;
+    border-collapse: 10px;
+    border: 1px solid black;
+    border-width: 3px;
+    font-size: 15px;
+    border-color: rgb(122 113 113);
+}
+
+.cartinputs{
+    position: relative;
+    top: 25%;
+    left: 0%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.cartinputs .custom
+{
+    background-color: grey;
+    position: absolute;
+    width: 45%;
+    left: 0%;
+    top: 6%;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'IBM Plex Serif';
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+.cartinputs .cart
+{
+    background-color: #ce3125f2;
+    width: 50%;
+    height: 200%;
+    margin: 0px 10px;
+    padding: 4px 0px;
+    position: relative;
+    left: 45%;
+    font-size: 25px;
+    font-family: 'IBM Plex Serif';
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+ /********************************** Block Two ********************************************/
+
+.block2
+{
+    position: relative;
+    width: 49%;
+    height: 48%;
+    top: 3%;
+    left: 1%;
+    background-color: #ffffff;
+
+}
+.block2 img 
+{
+    position: relative;
+    left: 2%;
+    width: 25%;
+    height: 75%;
+}
+.block2 p
+{
+
+    position: relative;
+    margin: 0px 75px;
+    padding: 0px 0px;
+    left: -4%;
+    top: -8%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+}
+.block2 h1
+{
+    position: absolute;
+    font-size: 20px;
+    color: #b80505;
+    right: 40%;
+    top: 0%;
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+}
+
+.block2 .pnormal
+{
+    position: absolute;
+    font-size: 15px;
+    font-weight: normal;
+    color: #010101;
+    left: 37%;
+    right: 0%;
+    top: 20%;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif';
+}
+
+.cartinputs{
+    position: relative;
+    top: 25%;
+    left: 0%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.cartinputs .custom
+{
+    background-color: grey;
+    position: absolute;
+    width: 45%;
+    left: 0%;
+    top: 6%;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'IBM Plex Serif';
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+.cartinputs .cart
+{
+    background-color: #ce3125f2;
+    width: 50%;
+    height: 200%;
+    margin: 0px 10px;
+    padding: 4px 0px;
+    position: relative;
+    left: 45%;
+    font-size: 25px;
+    font-family: 'IBM Plex Serif';
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+ /********************************** Block Three ********************************************/
+
+ .block3
+ {
+    position: absolute;
+    width: 48%;
+    height: 48%;
+    top: 2%;
+    left: 51%;
+    background-color: #ffffff;
+ 
+ }
+ .block3 img 
+ {
+     position: relative;
+     left: 2%;
+     width: 25%;
+     height: 70%;
+ }
+ .block3 p
+ {
+    position: relative;
+    margin: 0px 75px;
+    padding: 0px 0px;
+    left: -4%;
+    top: -5%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+ }
+ .block3 h1
+ {
+     position: absolute;
+     font-size: 20px;
+     color: #b80505;
+     right: 38%;
+     top: 0%;
+     font-weight: bold;
+     font-family: 'Bakbak One', cursive;
+ }
+ 
+ .block3 .pnormal
+ {
+    position: absolute;
+    font-size: 15px;
+    font-weight: normal;
+    color: #010101;
+    left: 37%;
+    right: 0%;
+    top: 20%;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif';
+ }
+ .selectordiv
+ {
+     position: absolute;
+     width: 64%;
+     height: 15%;
+     padding: 0px;
+     top: 60%;
+     left: 36%;
+     margin: 0;
+ }
+ .selectordiv .selector1
+ {
+     position: relative;
+     width: 58%;
+     margin: 0px 5px;
+     padding: 0px 0px;
+     border-radius: 5px;
+     background-color: white;
+     border-collapse: 10px;
+     border: 1px solid black;
+     border-width: 3px;
+     font-size: 15px;
+     border-color: rgb(122 113 113);
+ }
+ .selectordiv .selector2
+ {
+     position: relative;
+     width: 35%;
+     margin: 0px 5px;
+     padding: 0px 0px;
+     border-radius: 5px;
+     background-color: white;
+     border-collapse: 10px;
+     border: 1px solid black;
+     border-width: 3px;
+     font-size: 15px;
+     border-color: rgb(122 113 113);
+ }
+ 
+ .cartinputs{
+     position: relative;
+     top: 25%;
+     left: 0%;
+     padding: 0;
+     margin: 0;
+     width: 100%;
+ }
+ .cartinputs .custom
+ {
+     background-color: grey;
+     position: absolute;
+     width: 45%;
+     left: 0%;
+     top: 6%;
+     padding: 0;
+     margin: 0;
+     font-size: 25px;
+     font-family: 'IBM Plex Serif';
+     font-weight: bold;
+     color: white;
+     border-radius: 5px;
+ }
+ .cartinputs .cart
+ {
+     background-color: #ce3125f2;
+     width: 50%;
+     height: 200%;
+     margin: 0px 10px;
+     padding: 4px 0px;
+     position: relative;
+     left: 45%;
+     font-size: 25px;
+     font-family: 'IBM Plex Serif';
+     font-weight: bold;
+     color: white;
+     border-radius: 10px;
+ }
+
+  /********************************** Block Four ********************************************/
+  .block4
+{
+    position: absolute;
+    width: 48%;
+    height: 48%;
+    top: 51%;
+    left: 51%;
+    background-color: #ffffff;
+
+}
+.block4 img 
+{
+    position: relative;
+    left: 2%;
+    width: 25%;
+    height: 75%;
+}
+.block4 p
+{
+    position: relative;
+    margin: 0px 75px;
+    padding: 0px 0px;
+    left: -4%;
+    top: -8%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+}
+.block4 h1
+{
+    position: absolute;
+    font-size: 20px;
+    color: #b80505;
+    right: 35%;
+    top: 0%;
+    font-weight: bold;
+    font-family: 'Bakbak One', cursive;
+}
+
+.block4 .pnormal
+{
+    position: absolute;
+    font-size: 15px;
+    font-weight: normal;
+    color: #010101;
+    left: 37%;
+    right: 0%;
+    top: 20%;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif';
+}
+
+.cartinputs{
+    position: relative;
+    top: 25%;
+    left: 0%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.cartinputs .custom
+{
+    background-color: grey;
+    position: absolute;
+    width: 45%;
+    left: 0%;
+    top: 6%;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'IBM Plex Serif';
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+.cartinputs .cart
+{
+    background-color: #ce3125f2;
+    width: 50%;
+    height: 200%;
+    margin: 0px 10px;
+    padding: 4px 0px;
+    position: relative;
+    left: 45%;
+    font-size: 25px;
+    font-family: 'IBM Plex Serif';
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
